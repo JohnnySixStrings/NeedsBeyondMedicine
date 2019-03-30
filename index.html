@@ -26,7 +26,7 @@
     <!-- <link rel='stylesheet' id='nf-layout-front-end-css'  href='https://www.needsbeyondmedicine.org/wp-content/plugins/ninja-forms-style/layouts/assets/css/display-structure.css?ver=3.0.25' type='text/css' media='all' /> -->
     <!-- <link rel='stylesheet' id='oxygen-styles-css'  href='https://www.needsbeyondmedicine.org/?xlink=css&#038;ver=5.1.1' type='text/css' media='all' /> -->
     <!-- <link rel='stylesheet' id='jetpack_css-css'  href='https://www.needsbeyondmedicine.org/wp-content/plugins/jetpack/css/jetpack.css?ver=7.1.1' type='text/css' media='all' /> -->
-    <link rel="stylesheet" type="text/css" href="//www.needsbeyondmedicine.org/wp-content/cache/wpfc-minified/77jbeasb/87b6b.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="//wpfc-minified.css" media="all"/>
     <script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://www.needsbeyondmedicine.org/wp-content/plugins/charitable/assets/js/libraries/js-cookie.min.js?ver=2.1.4'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
@@ -242,12 +242,7 @@
 </div>
 <script>
     jQuery(document).ready(function () {
-        jQuery.post('https://www.needsbeyondmedicine.org?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
-            var s = document.createElement("script");
-            s.type = "text/javascript";
-            s.innerHTML = response;
-            jQuery("head").append(s);
-        });
+
     });
 </script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -340,7 +335,8 @@
     /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.needsbeyondmedicine.org/wp-content/plugins/jetpack/modules/wpgroho.js?ver=5.1.1'></script>
-<script type="text/javascript" id="ct-footer-js"></script><script type='text/javascript' src='https://stats.wp.com/e-201911.js' async='async' defer='defer'></script>
+<script type="text/javascript" id="ct-footer-js"></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201911.js' async='async' defer='defer'></script>
 <script type='text/javascript'>
     _stq = window._stq || [];
     _stq.push([ 'view', {v:'ext',j:'1:7.1.1',blog:'33644493',post:'1694',tz:'-6',srv:'www.needsbeyondmedicine.org'} ]);
